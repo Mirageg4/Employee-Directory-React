@@ -18,18 +18,9 @@
 <p>John Manouse</p>
 
 <p>Github: <a href="https://github.com/Mirageg4/employee-directory-react">employee-directory-react</a></p>
-<p>Video Link: <a href="https://drive.google.com/file/d/1ZdHNKcbBa4KYfZ8rbLxRRgy7T5ry85c0/view">Video Link</a></p>
+<p>Video Link: <a href=
+"https://drive.google.com/file/d/1ZdHNKcbBa4KYfZ8rbLxRRgy7T5ry85c0/view">Video Link</a></p>
 <p>Live Link: <a href="https://mirageg4.github.io/employee-directory-react/">Live Link</a></p>
-
-
-
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 ## Learn More
