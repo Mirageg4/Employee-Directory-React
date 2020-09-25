@@ -18,7 +18,7 @@
 <p>John Manouse</p>
 
 <p>Github: <a href="https://github.com/Mirageg4/employee-directory-react">employee-directory-react</a></p>
-<p>Live Link: <a href="https://mirageg4.github.io/employee-directory-react">Live Link</a></p>
+<p>Live Link: <a href="https://mirageg4.github.io/employee-directory-react/">Live Link</a></p>
 
 
 
