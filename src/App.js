@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import employeeList from "./employees.json";
+import employee from "./components/employee";
+import employerGroup from "./employerGroup.json";
+
 
 function App() {
   return (
