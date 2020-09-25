@@ -2,14 +2,14 @@ import React from "react";
 import "./style.css";
 
 function employee(props) {
-    //Condition if statement and Map function to loop through array
+    
 
     return (
         <div>
             {props.employeeGroup.length ? (
                 <ul className="list-group">
 
-                    {props.employeeList.map(result => (
+                    {props.employeeGroup.map(result => (
                         <li className="list-group-item" key={result.id}>
                             <div id="name"><b>Name: </b>{result.firstName} {result.lastName}
                                 <br></br>
