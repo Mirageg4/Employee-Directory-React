@@ -17,8 +17,8 @@
 <hr>
 <p>John Manouse</p>
 
-<p>Github: <a href="https://github.com/Mirageg4/employee-directory-react">Employee-Tracker</a></p>
-<p>Live Link: <a href="XXXX">Employee Directory</a></p>
+<p>Github: <a href="https://github.com/Mirageg4/employee-directory-react">employee-directory-react</a></p>
+<p>Live Link: <a href="XXXX">XXXX</a></p>
 
 
 
