@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mirageg4.github.io/employee-directory-react/",
+  "homepage": "https://mirageg4.github.io/employee-directory-react",
   "name": "employee-directory-react",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,8 @@
     
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -20,8 +22,8 @@
     "type": "module"
   },
   "eslintConfig": {
-    "extends": "react-app",
-    "eslint.enable": false
+    "extends": "react-app"
+    
   },
   "browserslist": {
     "production": [
