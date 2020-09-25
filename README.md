@@ -1,6 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Employee Directory</h1>
+<h2>John Manouse</h2>
+<p>I created an Employee Directory using React that will allow a user to view, all employees when the page loads. The user can sort the employees alphabetically, or search for an employee by name.</p>
+<p>
+</p>
+ 
+<h2>Employee Directory</h2>
+<ul>
+    <li>HTML code</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>node.js</li>
+    <li>React</li>
+</ul>
+<hr>
+<h2>Pull Requests welcome for contribution</h2>
+<hr>
+<p>John Manouse</p>
 
-## Available Scripts
+<p>Github: <a href="https://github.com/Mirageg4/employee-directory-react">Employee-Tracker</a></p>
+<p>Live Link: <a href="XXXX">Employee Directory</a></p>
+
+<hr>
+<img src ="./ssEDirect.png"/>
+<hr>              
+<p>License: Project is licensed under the MIT License. 
+See <a href ="LICENSE.md">LICENSE</a> file for details.
+
+
+
+
+
+
 
 In the project directory, you can run:
 
