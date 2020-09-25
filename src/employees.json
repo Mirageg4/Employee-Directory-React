@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "phone": "(123) 123-1234",
+        "firstName": "Enoch",
+        "lastName": "Thompson",
+        "email": "enoch@email.com",
+        "type": "CEO"
+    },
+
+    {
+        "id": 2,
+        "phone": "(123) 124-2234",
+        "firstName": "Nelson",
+        "lastName": "Van Alden",
+        "email": "nelson@email.com",
+        "type": "VP"
+    },
+
+    {
+        "id": 3,
+        "phone": "(123) 124-3234",
+        "firstName": "Chalky",
+        "lastName": "White",
+        "email": "chalky@email.com",
+        "type": "Software Engineer"
+    },
+
+    {
+        "id": 4,
+        "phone": "(123) 124-4234",
+        "firstName": "Mickey",
+        "lastName": "Doyle",
+        "email": "mickey@email.com",
+        "type": "Software Developer"
+    },
+
+    {
+        "id": 5,
+        "phone": "(123) 124-5234",
+        "firstName": "Gillian",
+        "lastName": "Darmondy",
+        "email": "gillian@email.com",
+        "type": "Network Development"
+    },
+
+    {
+        "id": 6,
+        "phone": "(123) 124-6234",
+        "firstName": "Arnold",
+        "lastName": "Rothstein",
+        "email": "arnold@email.com",
+        "type": "Accountant"
+    },
+
+    {
+        "id": 7,
+        "phone": "(123) 124-7234",
+        "firstName": "Eddy",
+        "lastName": "Kessler",
+        "email": "eddy@email.com",
+        "type": "Marketing Manager"
+    },
+
+    {
+        "id": 8,
+        "phone": "(123) 124-8234",
+        "firstName": "Eddy",
+        "lastName": "Kessler",
+        "email": "eddy@email.com",
+        "type": "Database Engineer"
+    },
+
+    {
+        "id": 9,
+        "phone": "(123) 124-9234",
+        "firstName": "Emily",
+        "lastName": "Schroeder",
+        "email": "emily@email.com",
+        "type": "HR Manager"
+    }
+]
