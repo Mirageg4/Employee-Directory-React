@@ -1,29 +1,78 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import employee from "./components/employee";
+import Employee from "./components/employee";
 import employerGroup from "./employerGroup.json";
+import Form from "./components/form";
 
+class App extends Component {
+  state = {
+      sorted: employerGroup,
+      firstName: "",
+      lastName: ""
+  }
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  handleInputChange = event => {
+      let value = event.target.value;
+      const name = event.target.name;
+
+      this.setState({
+          [name]: value
+      });
+  };
+
+  handleFormSubmit = event => {
+      event.preventDefault();
+
+      let findFirstName = new Array(...employerGroup)
+      console.log(findFirstName)
+
+      let filtersReturnNewArrays = findFirstName.filter(employee => {
+          return employee.firstName.includes(this.state.firstName)
+              || employee.lastName.includes(this.state.firstName)
+      })
+      console.log(filtersReturnNewArrays)
+
+      this.setState({ sorted: filtersReturnNewArrays })
+
+      this.setState({
+          firstName: "",
+          lastName: ""
+      });
+  };
+
+  sortName = () => {
+      let unsorted = new Array(...employerGroup)
+      console.log(unsorted)
+
+      let sortof = unsorted.sort((a, b) => {
+          console.log(a.firstName, b.lastName)
+          console.log(b.firstName, a.lastName)
+          return (a.firstName > b.firstName) ? 1 : ((b.firstName > a.firstName) ? -1 : 0)
+      })
+      console.log(sortof)
+      this.setState({ sorted: sortof })
+  }
+
+  render() {
+      return (
+          <div stylle="text-align: center">
+              <Form
+                  firstName={this.state.firstName}
+                  lastName={this.state.lastName}
+                  handleInputChange={this.handleInputChange}
+                  handleFormSubmit={this.handleFormSubmit}
+              />
+
+              <button class="sort" onClick={this.sortName}>Sort Names A to Z</button>
+
+              <Employee employerGroup={this.state.sorted} />
+
+          </div>
+      )
+  }
+
 }
+
+
 
 export default App;

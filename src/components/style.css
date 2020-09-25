@@ -1,16 +1,17 @@
 body {
     background-color:	#6495ed;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #name{
     text-align: left;
+    padding-left: 20px;
 
 }
 
 #other{
     text-align: right;
-
+    padding-right: 20px;
 }
 
 h1{
@@ -45,5 +46,7 @@ form{
 button{
     width: fit-content;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 15px;
+    margin-left: 10px;
+    
 }

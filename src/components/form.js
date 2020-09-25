@@ -2,14 +2,14 @@ import React from "react";
 import "./style.css";
 
 
-function searchForm(props) {
+function Form(props) {
 
     return (
         <div>
             <br></br>
             <h1>Employee Directory</h1>
             <br></br>
-            <h3>Enter employee's first name below and click 'Find'</h3>
+            <h3>Enter employee's first name below and click 'Search Employee'</h3>
 
             <div class="entertext">
                 <form className="form">
@@ -22,7 +22,7 @@ function searchForm(props) {
                         placeholder="Names - case sensitive"
                     />
                     <br></br>
-                    <button onClick={props.handleFormSubmit}>Search</button>
+                    <button onClick={props.handleFormSubmit}>Search Employee</button>
                 </form>
             </div>
             <br></br>
@@ -32,4 +32,4 @@ function searchForm(props) {
 
 }
 
-export default searchForm;
+export default Form;
